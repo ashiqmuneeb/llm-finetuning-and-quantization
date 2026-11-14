@@ -1,0 +1,17 @@
+# Reference list. Notebooks install what they need with !pip install.
+# A GPU runtime is required (free Colab T4 is enough).
+torch
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+trl
+sentencepiece
+sacrebleu
+rouge_score
+evaluate
+py7zr
+huggingface_hub
+# GGUF inference (build with CUDA flags, see notebook 03):
+# CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
